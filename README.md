@@ -1,6 +1,12 @@
 # TextRecognizer
 A command-line interface for performing text recognition on images.
 
+## Install
+```
+brew tap pepebecker/tap
+brew install text-recognizer
+```
+
 ## Usage
 ```bash
 recognize-text [--language <language>] <path>
