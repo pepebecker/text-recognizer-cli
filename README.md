@@ -10,7 +10,7 @@ brew install text-recognizer
 
 ## Usage
 ```bash
-recognize-text [--language <language>] <path>
+recognize-text [--lang <lang>] <path>
 ```
 
 ## Arguments
