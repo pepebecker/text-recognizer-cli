@@ -55,3 +55,11 @@ ja-JP    : 日本語
 ru-RU    : русский
 uk-UA    : українська
 ```
+
+## Build From Source
+To build TextRecognizer from source, you need to have [Swift Package Manager](https://swift.org/package-manager/) installed. <br />
+Then, run the following command:
+```bash
+swift build -c release --arch arm64 --arch x86_64
+cp .build/apple/Products/Release/recognize-text ./bin/recognize-text
+```
