@@ -63,3 +63,7 @@ Then, run the following command:
 swift build -c release --arch arm64 --arch x86_64
 cp .build/apple/Products/Release/recognize-text ./bin/recognize-text
 ```
+
+## Contributing
+
+If you **have a question**, **found a bug** or want to **propose a feature**, have a look at [the issues page](https://github.com/pepebecker/osx-text-recognizer/issues).
