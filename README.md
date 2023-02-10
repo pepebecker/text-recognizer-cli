@@ -1,5 +1,5 @@
-# TextRecognizer
-TextRecognizer is a command-line interface for performing text recognition on images. <br />
+# TextRecognizer CLI
+TextRecognizer CLI is a command-line interface for performing text recognition on images. <br />
 With this tool, you can easily extract text from images and specify the language of the text to improve the accuracy of the recognition.
 
 ## Install
@@ -66,4 +66,4 @@ cp .build/apple/Products/Release/recognize-text ./bin/recognize-text
 
 ## Contributing
 
-If you **have a question**, **found a bug** or want to **propose a feature**, have a look at [the issues page](https://github.com/pepebecker/osx-text-recognizer/issues).
+If you **have a question**, **found a bug** or want to **propose a feature**, have a look at [the issues page](https://github.com/pepebecker/text-recognizer-cli/issues).

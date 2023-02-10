@@ -8,6 +8,15 @@
         "revision" : "6b2aa2748a7881eebb9f84fb10c01293e15b52ca",
         "version" : "0.5.0"
       }
+    },
+    {
+      "identity" : "text-recognizer-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/pepebecker/text-recognizer-swift",
+      "state" : {
+        "revision" : "0d366892eb2a77bc0ea705955abfd47da8e3d18c",
+        "version" : "0.1.0"
+      }
     }
   ],
   "version" : 2

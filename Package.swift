@@ -4,19 +4,21 @@
 import PackageDescription
 
 let package = Package(
-    name: "TextRecognizer",
+    name: "TextRecognizerCLI",
     platforms: [
-        .macOS(.v10_15)
+        .macOS(.v12)
     ],
     products: [
-        .executable(name: "recognize-text", targets: ["TextRecognizer"])
+        .executable(name: "recognize-text", targets: ["TextRecognizerCLI"])
     ],
     dependencies: [
-        .package(url: "https://github.com/apple/swift-argument-parser", from: "0.0.1")
+        .package(url: "https://github.com/apple/swift-argument-parser", from: "0.0.1"),
+        .package(url: "https://github.com/pepebecker/text-recognizer-swift", from: "0.1.0")
     ],
     targets: [
-        .executableTarget(name: "TextRecognizer", dependencies: [
-            .product(name: "ArgumentParser", package: "swift-argument-parser")
+        .executableTarget(name: "TextRecognizerCLI", dependencies: [
+            .product(name: "ArgumentParser", package: "swift-argument-parser"),
+            .product(name: "TextRecognizer", package: "text-recognizer-swift")
         ]),
     ]
 )
