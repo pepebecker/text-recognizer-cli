@@ -45,7 +45,7 @@ struct TextRecognizerCLI: ParsableCommand {
         let paddedCode = code.padding(toLength: 9, withPad: " ", startingAt: 0)
         let locale = Locale(identifier: code)
         if let languageName = locale.localizedString(forLanguageCode: code) {
-          print("\(paddedCode): \(languageName)")
+          print("\(paddedCode): \(languageName.capitalized)")
         } else {
           print(code)
         }
